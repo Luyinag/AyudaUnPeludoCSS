@@ -1,6 +1,5 @@
 *  {   
     margin: 0;
-    padding: 0;
     font-family: 'Arial';
 }
 
@@ -31,26 +30,43 @@
     height:125vh;
 }
 
-#boxcolor1{ /*INICIO*/
-    text-align:center;
+.boxcolor1{ /*INICIO*/
+    position:relative;
+    top:0;
+    left:384px;
     background-color: rgb(22, 206, 212);
     color: #fff;
     /*ancho de la ventana*/
-    width: 100%;
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+
+}
+
+.boxcolor1text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
+}
+
+.boxcolor2{ /*NOSOTROS*/
+    position:relative;
+    top:0;
+    left:384px;
+    background-color: rgb(221, 236, 11);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
     /*alto de la ventana*/
     height:25vh;
     border-width: 5px;
 }
 
-#boxcolor2{ /*NOSOTROS*/
-    text-align:center;
-    background-color: rgb(221, 236, 11);
-    color: #fff;
-    /*ancho de la ventana*/
-    width: 100%;
-    /*alto de la ventana*/
-    height:25vh;
-    border-width: 5px;
+.boxcolor2text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
 }
 
 #boxcolor3{ /*PERROS*/
@@ -75,15 +91,23 @@
     border-width: 5px;
 }
 
-#boxcolor5{ /*CONTACTOS*/
-    text-align:center;
+.boxcolor5{ /*CONTACTOS*/
+    position:relative;
+    top:0;
+    left:384px;
     background-color: rgb(180, 60, 60);
     color: #fff;
     /*ancho de la ventana*/
-    width: 100%;
+    width: 74.1vw;
     /*alto de la ventana*/
     height:25vh;
     border-width: 5px;
+}
+
+.boxcolor5text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
 }
 
 #boxtext-center{ /*ALINEAR TEXTO CENTRADO*/
@@ -103,7 +127,7 @@ a:hover { /*COLOR LINKS SOMBREADO*/
 
 .column { /*COLUMNA FOTO-TEXTO*/
     float: left;
-    width: 24%;
+    width: 24.4%;
     padding: 5px;
   }
   
