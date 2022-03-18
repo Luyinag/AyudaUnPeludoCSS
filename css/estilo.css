@@ -1,0 +1,114 @@
+*  {   
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+#boxmenu{ /*MENU-IZQ*/
+    clear:none;
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
+    float:left;
+    text-align:center;
+    background-color: #333;
+    /*ancho de la ventana*/
+    width: 20vw;
+    /*alto de la ventana*/
+    height:125vh;
+}
+
+#boxborder{ /*BORDE DERECHA*/
+    clear:none;
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
+    float:right;
+    background-color: #333;
+    /*ancho de la ventana*/
+    width: 5vw;
+    /*alto de la ventana*/
+    height:125vh;
+}
+
+#boxcolor1{ /*INICIO*/
+    text-align:center;
+    background-color: rgb(22, 206, 212);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 100%;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+#boxcolor2{ /*NOSOTROS*/
+    text-align:center;
+    background-color: rgb(221, 236, 11);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 100%;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+#boxcolor3{ /*PERROS*/
+    text-align:center;
+    background-color: rgb(240, 130, 4);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 100%;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+#boxcolor4{ /*GATOS*/
+    text-align:center;
+    background-color: rgb(247, 10, 10);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 100%;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+#boxcolor5{ /*CONTACTOS*/
+    text-align:center;
+    background-color: rgb(180, 60, 60);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 100%;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+#boxtext-center{ /*ALINEAR TEXTO CENTRADO*/
+    display: inline-block; 
+    text-align: left;
+}
+
+a{ /*COLOR LINKS NORMAL*/
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+a:hover { /*COLOR LINKS SOMBREADO*/
+    color: #626362;
+    cursor: pointer;
+  }
+
+.column { /*COLUMNA FOTO-TEXTO*/
+    float: left;
+    width: 24%;
+    padding: 5px;
+  }
+  
+  .row::after { /*FILA FOTO-TEXTO*/
+    content: "";
+    clear: both;
+    display: table;
+  }
