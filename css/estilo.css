@@ -1,0 +1,153 @@
+*  {   
+    margin: 0;
+    font-family: 'Arial';
+}
+
+#boxmenu{ /*MENU-IZQ*/
+    clear:none;
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
+    float:left;
+    text-align:center;
+    background-color: #333;
+    /*ancho de la ventana*/
+    width: 20vw;
+    /*alto de la ventana*/
+    height:125vh;
+}
+
+#boxborder{ /*BORDE DERECHA*/
+    clear:none;
+    position: -webkit-sticky;
+    top:0;
+    position: sticky;
+    float:right;
+    background-color: #333;
+    /*ancho de la ventana*/
+    width: 5vw;
+    /*alto de la ventana*/
+    height:125vh;
+}
+
+.boxcolor1{ /*INICIO*/
+    position:relative;
+    top:0;
+    left:384px;
+    background-color: rgb(22, 206, 212);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+
+}
+
+.boxcolor1text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
+}
+
+.boxcolor2{ /*NOSOTROS*/
+    position:relative;
+    top:0;
+    left:384px;
+    background-color: rgb(221, 236, 11);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+.boxcolor2text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
+}
+
+.boxcolor3{ /*PERROS*/
+    overflow: auto;
+    position:relative;
+    background-color: rgb(240, 130, 4);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+    
+}
+
+.boxcolor3text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: left;
+}
+
+#boxcolor4{ /*GATOS*/
+    overflow: auto;
+    position:relative;
+    background-color: rgb(247, 10, 10);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+.boxcolor4text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: left;
+}
+
+.boxcolor5{ /*CONTACTOS*/
+    position:relative;
+    top:0;
+    left:384px;
+    background-color: rgb(180, 60, 60);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+}
+
+.boxcolor5text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: middle;
+}
+
+#boxtext-center{ /*ALINEAR TEXTO CENTRADO*/
+    display: inline-block; 
+    text-align: left;
+}
+
+a{ /*COLOR LINKS NORMAL*/
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+a:hover { /*COLOR LINKS SOMBREADO*/
+    color: #626362;
+    cursor: pointer;
+  }
+
+.column { /*COLUMNA FOTO-TEXTO*/
+    float: left;
+    width: 24.4%;
+    padding: 5px;
+  }
+  
+  .row::after { /*FILA FOTO-TEXTO*/
+    content: "";
+    clear: both;
+    display: table;
+  }
