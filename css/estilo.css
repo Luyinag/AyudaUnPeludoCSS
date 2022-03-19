@@ -69,26 +69,41 @@
     vertical-align: middle;
 }
 
-#boxcolor3{ /*PERROS*/
-    text-align:center;
+.boxcolor3{ /*PERROS*/
+    overflow: auto;
+    position:relative;
     background-color: rgb(240, 130, 4);
     color: #fff;
     /*ancho de la ventana*/
-    width: 100%;
+    width: 74.1vw;
+    /*alto de la ventana*/
+    height:25vh;
+    border-width: 5px;
+    
+}
+
+.boxcolor3text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: left;
+}
+
+#boxcolor4{ /*GATOS*/
+    overflow: auto;
+    position:relative;
+    background-color: rgb(247, 10, 10);
+    color: #fff;
+    /*ancho de la ventana*/
+    width: 74.1vw;
     /*alto de la ventana*/
     height:25vh;
     border-width: 5px;
 }
 
-#boxcolor4{ /*GATOS*/
-    text-align:center;
-    background-color: rgb(247, 10, 10);
-    color: #fff;
-    /*ancho de la ventana*/
-    width: 100%;
-    /*alto de la ventana*/
-    height:25vh;
-    border-width: 5px;
+.boxcolor4text{
+    position:absolute;
+    padding: 30px 200px 50px;
+    vertical-align: left;
 }
 
 .boxcolor5{ /*CONTACTOS*/
